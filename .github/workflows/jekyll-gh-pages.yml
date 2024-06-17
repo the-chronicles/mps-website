@@ -28,6 +28,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 16
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v5
+      - name: Build Project
+        run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
