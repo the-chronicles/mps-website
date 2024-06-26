@@ -1,6 +1,5 @@
 {
-  "homepage": "https://timi-g.github.io/mps-website/",
-  "name": "zabinal-webapp",
+ "name": "zabinal-webapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +8,7 @@
     "build": "tsc && vite build",
     "start":"vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "preview": "vite preview"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
