@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Flex, Heading, Text } from "@chakra-ui/react";
+import {Box, Flex, Heading, Text } from "@chakra-ui/react";
 
 const Mandate = () => {
   return (
