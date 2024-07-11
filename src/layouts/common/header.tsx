@@ -60,7 +60,7 @@ const Header = () => {
               </DrawerHeader>
 
               <DrawerBody lineHeight={"40px"}>
-                <NavLink link="/" text="Home" />
+                <NavLink link="/" text="Home!" />
                 <NavLink link="/" text="About Us" />
                 <NavLink link="/" text="Partenership" />
                 <NavLink link="/" text="Giving" />
