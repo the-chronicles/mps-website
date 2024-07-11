@@ -1,3 +1,4 @@
+import Footer from "../layouts/common/footer";
 import Header from "../layouts/common/header";
 import Mandate from "../layouts/mandate";
 import Pastors from "../layouts/pastors";
@@ -15,6 +16,7 @@ function About() {
         <Mandate />
         <Weekly />
         <Pastors />
+        <Footer />
     </Box>
   );
 }
