@@ -1,6 +1,5 @@
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { ArrowCircleDown } from "iconsax-react";
 
 const Hero = () => {
   return (
