@@ -8,10 +8,10 @@ const MediaCards = (props: {
 }) => {
   return (
     <Box>
-      <AspectRatio borderRadius={20} width={400} ratio={1}>
+      <AspectRatio borderRadius={20} width={300} ratio={1}>
         <iframe
           style={{
-            borderRadius: 30,
+            borderRadius: 26,
             objectFit: "contain",
           }}
           title={props.title}
@@ -19,7 +19,7 @@ const MediaCards = (props: {
           allowFullScreen
         />
       </AspectRatio>
-      <Text fontWeight={700} fontSize={20}>
+      <Text fontWeight={700} fontSize={20} marginTop={4}>
         {props.service}
       </Text>
       <Text>{props.minister}</Text>

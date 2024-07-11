@@ -20,18 +20,19 @@ const Header = () => {
   return (
     <Box px={10} pos={"fixed"} width={"100%"} zIndex={99} py={5} bg={"#fff"}>
       <Flex justifyContent={"space-between"} alignItems={"center"}>
-        <Logo />
+        <Box>
+          <Logo />
+        </Box>
 
         <Flex
           display={{ lg: "flex", md: "flex", sm: "none", base: "none" }}
-          gap={10}
         >
           <NavLink link="/" text="Home" />
-          <NavLink link="/" text="About Us" />
-          <NavLink link="/" text="Partenership" />
-          <NavLink link="/" text="Giving" />
-          <NavLink link="/" text="Media Archive" />
-          <NavLink link="/" text="Testimony" />
+          <NavLink link="/about" text="About US" />
+          <NavLink link="/partnership" text="Partnership" />
+          <NavLink link="/giving" text="Giving" />
+          <NavLink link="/media-archive" text="Media Archive" />
+          <NavLink link="/testimony" text="Testimony" />
         </Flex>
         <Box
           display={{ lg: "none", md: "none", sm: "block", base: "block" }}
@@ -60,7 +61,7 @@ const Header = () => {
               </DrawerHeader>
 
               <DrawerBody lineHeight={"40px"}>
-                <NavLink link="/" text="Home" />
+                <NavLink link="/" text="Home!" />
                 <NavLink link="/" text="About Us" />
                 <NavLink link="/" text="Partenership" />
                 <NavLink link="/" text="Giving" />

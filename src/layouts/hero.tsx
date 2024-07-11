@@ -9,6 +9,7 @@ const Hero = () => {
         cursor={"pointer"}
         fontWeight={800}
         color={"#fff"}
+        // marginTop={10}
         as={motion.h1}
         width={"fit-content"}
         whileHover={{
@@ -18,7 +19,7 @@ const Hero = () => {
       >
         UNLEASHING <br /> POTENTIALS
       </Heading>
-      <Box
+      {/* <Box
         width={{ lg: 800, md: 800, sm: "100%", base: "100%" }}
         bg={"#fff"}
         p={10}
@@ -43,7 +44,7 @@ const Hero = () => {
         >
           See more
         </Button>
-      </Box>
+      </Box> */}
     </Box>
   );
 };
