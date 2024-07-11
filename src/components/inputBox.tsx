@@ -9,7 +9,7 @@ const InputBox = (props: {
   return (
     <Box my={5}>
       <FormControl>
-        <FormLabel textTransform={"uppercase"}>{props.label}</FormLabel>
+        <FormLabel>{props.label}</FormLabel>
         {props.box === true ? (
           <Textarea
             placeholder={props.placeholder}
@@ -20,13 +20,20 @@ const InputBox = (props: {
             borderRadius={20}
             height={200}
             p={5}
+            borderColor={"#FD6001"}
           />
         ) : (
           <Input
-            borderRadius={20}
+          _focus={{
+            boxShadow: "0px 0px 3px #FD6001",
+            border: 0,
+            borderColor: '#FD6001'
+          }}
+            borderRadius={10}
             placeholder={props.placeholder}
             type={props.type}
             py={7}
+            borderColor={"#FD6001"}
           />
         )}
       </FormControl>

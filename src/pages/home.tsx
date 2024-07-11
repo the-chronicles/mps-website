@@ -14,7 +14,7 @@ const Home = () => {
         bgImage={"/hero.png"}
         width={"100%"}
         height={"100vh"}
-        bgSize={"contain"}
+        bgSize={"cover"}
         bgPos={"center center"}
       >
         <Header />
