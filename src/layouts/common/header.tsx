@@ -24,9 +24,7 @@ const Header = () => {
           <Logo />
         </Box>
 
-        <Flex
-          display={{ lg: "flex", md: "flex", sm: "none", base: "none" }}
-        >
+        <Flex display={{ lg: "flex", md: "flex", sm: "none", base: "none" }}>
           <NavLink link="/" text="Home" />
           <NavLink link="/about" text="About US" />
           <NavLink link="/partnership" text="Partnership" />
@@ -61,12 +59,12 @@ const Header = () => {
               </DrawerHeader>
 
               <DrawerBody lineHeight={"40px"}>
-                <NavLink link="/" text="Home!" />
-                <NavLink link="/" text="About Us" />
-                <NavLink link="/" text="Partenership" />
-                <NavLink link="/" text="Giving" />
-                <NavLink link="/" text="Media Archive" />
-                <NavLink link="/" text="Testimony" />
+                <NavLink link="/" text="Home" />
+                <NavLink link="/about" text="About US" />
+                <NavLink link="/partnership" text="Partnership" />
+                <NavLink link="/giving" text="Giving" />
+                <NavLink link="/media-archive" text="Media Archive" />
+                <NavLink link="/testimony" text="Testimony" />
               </DrawerBody>
             </DrawerContent>
           </Drawer>
