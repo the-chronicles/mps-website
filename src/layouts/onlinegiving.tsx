@@ -1,5 +1,6 @@
 import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
 import Button from "../components/button";
+import { Link } from "react-router-dom";
 
 const Onlinegiving = () => {
   return (
@@ -21,7 +22,9 @@ const Onlinegiving = () => {
             earth
           </Text>
           <Center mt={5}>
+            <Link to='/giving'>
             <Button text="Give" />
+            </Link>
           </Center>
         </Box>
       </Flex>
