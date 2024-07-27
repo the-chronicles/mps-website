@@ -22,7 +22,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Victor Omodele
+              Oluwadare Omodele
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
@@ -37,7 +37,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Victor Omodele
+              Ajibola Omodele
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
@@ -228,7 +228,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              A/p Bisola Osas
+              A/P Bisola Osas
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
