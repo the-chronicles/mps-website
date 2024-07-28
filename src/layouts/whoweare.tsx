@@ -16,8 +16,11 @@ const Whoweare = () => {
             fontSize={{ lg: 50, md: 40, sm: 20, base: 20 }}
             fontWeight={600}
           >
-            Energetic & Vibrant youths Beautiful souls Unleashing our potentials
-            In Christ Jesus
+            On a Mission to Unleash Potentials. <\br>
+
+The fastest-growing church in Redemption City <\br>
+
+Raising a new generation of young believers who are excited about Christ, have a vision for world transformation, and are committed to sharing the gospel with those who have yet to believe.
           </Text>
         </Box>
       </Flex>
