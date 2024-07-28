@@ -16,11 +16,10 @@ const Weekly = () => {
         <Box width={500} p={{ lg: 0, md: 0, sm: 10, base: 10 }}>
           <Box>
             <Heading fontSize={30} color={"#FD6001"}>
-              Bible Study
+              Sunday Service
             </Heading>
             <Text textTransform={"capitalize"}>
-              Enjoy an interactive study of the word every wednesday from
-              6pm-8pm
+              Worship with us every Sunday from 8 AM to 11:30 AM as we experience the supernatural together.
             </Text>
           </Box>
         </Box>
@@ -30,8 +29,7 @@ const Weekly = () => {
               Bible Study
             </Heading>
             <Text textTransform={"capitalize"}>
-              Enjoy an interactive study of the word every wednesday from
-              6pm-8pm
+              Join us every Wednesday from 6 PM to 8 PM for an interactive study of the Word. 
             </Text>
           </Box>
         </Box>
