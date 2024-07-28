@@ -47,6 +47,21 @@ const Pastors = () => {
             </Text>
           </Box>
           <Box className="mb-5">
+            <img src="/pastor19.png" />
+            <Text
+              fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
+              className="font-medium"
+            >
+              Oluwatoba Ajayi
+            </Text>
+            <Text
+              fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
+              className="font-medium"
+            >
+              Pastor
+            </Text>
+          </Box>
+          <Box className="mb-5">
             <img src="/pastor3.png" />
             <Text
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
