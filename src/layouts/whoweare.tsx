@@ -17,9 +17,8 @@ const Whoweare = () => {
             fontWeight={600}
           >
             On a Mission to Unleash Potentials. <br/>
-            <br/>
 
-The fastest-growing church in Redemption City
+The fastest-growing church in Redemption City.
           </Text>
         </Box>
       </Flex>
