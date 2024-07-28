@@ -18,8 +18,10 @@ const Onlinegiving = () => {
             fontSize={{ lg: 50, md: 40, sm: 20, base: 20 }}
             fontWeight={600}
           >
-            God will build your kingdom on earth if you build His kingdom on
-            earth
+            We believe, according to God’s word, that when we give, we invite God’s good measure: pressed down, shaken together, and overflowing with blessings. <br />
+
+“Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap…”
+New International Version
           </Text>
           <Center mt={5}>
             <Link to='/giving'>
