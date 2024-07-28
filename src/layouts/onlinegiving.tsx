@@ -21,8 +21,8 @@ const Onlinegiving = () => {
             We believe, according to God’s word, that when we give, we invite God’s good measure: pressed down, shaken together, and overflowing with blessings. <br />
           <Text
             mt={5}
-            fontSize={{ lg: 30, md: 30, sm: 10, base: 10 }}
-            fontWeight={600}
+            fontSize={{ lg: 40, md: 35, sm: 15, base: 15 }}
+            fontWeight={300}
           >
             <br/>
             “Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap…”
