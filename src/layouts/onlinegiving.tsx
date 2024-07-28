@@ -26,8 +26,14 @@ const Onlinegiving = () => {
           >
             <br/>
             “Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap…”
-New International Version
             </Text>
+            <Text
+            mt={5}
+            fontSize={{ lg: 50, md: 40, sm: 20, base: 20 }}
+            fontWeight={600}
+          >
+              New International Version
+          </Text>
           </Text>
           <Center mt={5}>
             <Link to='/giving'>
