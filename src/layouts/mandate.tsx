@@ -15,32 +15,7 @@ const Mandate = () => {
               Our Mandate
             </Heading>
             <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              ipsam amet! Illum dolorem quam optio dolore hic reprehenderit
-              magnam voluptates, dicta soluta quasi aspernatur nam, ut vel eum
-              laborum esse.
-            </Text>
-          </Box>
-          <Box mt={10} mb={10}>
-            <Heading fontSize={30} color={"#FD6001"}>
-              Our Mandate
-            </Heading>
-            <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              ipsam amet! Illum dolorem quam optio dolore hic reprehenderit
-              magnam voluptates, dicta soluta quasi aspernatur nam, ut vel eum
-              laborum esse.
-            </Text>
-          </Box>
-          <Box>
-            <Heading fontSize={30} color={"#FD6001"}>
-              Our Mandate
-            </Heading>
-            <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              ipsam amet! Illum dolorem quam optio dolore hic reprehenderit
-              magnam voluptates, dicta soluta quasi aspernatur nam, ut vel eum
-              laborum esse.
+              Raising a new generation of young believers who are excited about Christ, have a vision for world transformation, and are committed to sharing the gospel with those who have yet to believe.
             </Text>
           </Box>
         </Box>
