@@ -24,7 +24,7 @@ const Church = () => {
           }`}
           onClick={() => setActiveTab("church-offering")}
         >
-          Church Offering
+          Church Offering / Tithe
         </button>
         <button
           className={`w-96 rounded-md bg-[#fcf3f3] px-4 py-2 text-black ${
@@ -32,7 +32,7 @@ const Church = () => {
               ? "border-b-2 border-[#fd6001]"
               : "border-[#fd6001] hover:border-b-2"
           }`}
-          onClick={() => setActiveTab("church-tithe")}
+          onClick={() => setActiveTab("church-project")}
         >
           Church Project
         </button>
