@@ -28,13 +28,13 @@ const Church = () => {
         </button>
         <button
           className={`w-96 rounded-md bg-[#fcf3f3] px-4 py-2 text-black ${
-            activeTab === "church-tithe"
+            activeTab === "church-project"
               ? "border-b-2 border-[#fd6001]"
               : "border-[#fd6001] hover:border-b-2"
           }`}
           onClick={() => setActiveTab("church-tithe")}
         >
-          Church Tithe
+          Church Project
         </button>
       </Flex>
       <Flex justifyContent={"center"} m={5}>
@@ -44,43 +44,43 @@ const Church = () => {
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              Bank: access Bank
+              Bank: UBA
             </Text>
             <Text
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              account Name: RCCG MPS
+              account Name: RCCG Messiah Praise Sanctuary
             </Text>
             <Text
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              account Number: 1234567890
+              account Number: 1020738092
             </Text>
           </Box>
         )}
       </Flex>
       <Flex justifyContent={"center"} m={5}>
-        {activeTab === "church-tithe" && (
+        {activeTab === "church-project" && (
           <Box>
             <Text
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              Bank: access Bank
+              Bank: Ecobank
             </Text>
             <Text
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              account Name: RCCG MPS
+              account Name: RCCG Messiah Praise Sanctuary
             </Text>
             <Text
               textTransform={"capitalize"}
               fontSize={{ lg: 48, md: 48, sm: 25, base: 20 }}
             >
-              account Number: 1234567890
+              account Number: 3852018624
             </Text>
           </Box>
         )}
