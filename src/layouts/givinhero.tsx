@@ -9,7 +9,7 @@ const GivingHero = () => {
         color={"#FD6001"}
         justifyContent={"center"}
       >
-        ONLINE GIVING
+        ONLINE GIVING!
       </Text>
       <Text
         fontSize={{ lg: 40, md: 30, sm: 20, base: 20 }}
