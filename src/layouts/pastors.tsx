@@ -22,7 +22,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Oluwadare Omodele
+              Pastor Oluwadare Omodele
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
@@ -37,13 +37,13 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Ajibola Omodele
+              Pastor Ajibola Oluwadare 
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
               className="font-medium"
             >
-              Senior Pastor
+              WAPIC Admin/ Pastor in Charge
             </Text>
           </Box>
           <Box className="mb-5">
@@ -52,7 +52,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Oluwatoba Ajayi
+              Pastor Oluwatoba Ajayi
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
@@ -61,7 +61,7 @@ const Pastors = () => {
               Pastor
             </Text>
           </Box>
-          <Box className="mb-5">
+          {/* <Box className="mb-5">
             <img src="/pastor3.png" />
             <Text
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
@@ -75,7 +75,7 @@ const Pastors = () => {
             >
               HOD Evangelist
             </Text>
-          </Box>
+          </Box> */}
           <Box className="mb-5">
             <img src="/pastor4.png" />
             <Text
@@ -286,7 +286,7 @@ const Pastors = () => {
               fontSize={{ lg: 24, md: 24, sm: 18, base: 18 }}
               className="font-medium"
             >
-              Sis Rachel Owolabi
+              Sis Olayinka Eunice
             </Text>
             <Text
               fontSize={{ lg: 18, md: 18, sm: 12, base: 12 }}
