@@ -10,7 +10,7 @@ const Mediaarchive = () => {
             fontSize={{ lg: 60, md: 60, sm: 40, base: 40 }}
             color={"#FD6001"}
           >
-            MEDIA ARCHIVE
+            MEDIA ARCHIVEs
           </Heading>
           <Text
             mt={5}
